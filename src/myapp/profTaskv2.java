@@ -25,8 +25,8 @@ public class profTaskv2{
                 System.out.printf("> %3f\n" ,acc);
                 break;
                 // ADD 5 6 7 9
-                case "ADD 5 6 7 9":
-                cmd = cons.readLine("VAL>").strip(" ");
+                case "ADD":
+                cmd = cons.readLine("VAL>").trim();
                 Float value = Float.parseFloat(cmd);
                 acc += value;
                 break;
